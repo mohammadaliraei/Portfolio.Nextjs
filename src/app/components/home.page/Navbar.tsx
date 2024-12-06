@@ -1,5 +1,5 @@
 import { NextPage } from "next";
-import images from "../Images"; // فرض بر این است که تصاویر شما اینجا قرار دارند
+import images from "../Images";
 import Image from "next/image";
 
 const Navbar: NextPage = () => {
@@ -9,7 +9,7 @@ const Navbar: NextPage = () => {
         <Image
           src={images.Logo}
           alt="Logo"
-          className="w-20 h-20"
+          className="w-28 h-28"
         />
       </div>
     </div>
